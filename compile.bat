@@ -1,0 +1,1 @@
+start "" /D "C:\Program Files (x86)\Launch4j" launch4j.exe "%cd%\launch4j_config.xml"

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Cutrecoin" default="default" basedir=".">
+    <description>Builds, tests, and runs the project Cutrecoin.</description>
+    <import file="nbproject/build-impl.xml"/>
+    
+    <target name="-post-jar">   
+        <exec dir="." executable="cmd">
+              <arg line="/c compile.bat"/>
+        </exec>
+    </target>
+    
+</project>
